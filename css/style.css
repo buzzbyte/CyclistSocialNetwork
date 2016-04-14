@@ -138,7 +138,12 @@ h1{
   margin:0 auto;
 }
 #login_container ul li{
+   transition-duration: 0.4s;
   list-style:none;
+
+  border-style:solid;
+  border-color:red;
+  border-width:3px;
   background-color:red;
   width:80%;
   margin:0 auto;
@@ -148,13 +153,9 @@ h1{
 
 }
 #login_container ul li:hover{
-  list-style:none;
-  background-color:#cc0000;
-  width:80%;
-  margin:0 auto;
-  margin-top:10px;
-  text-align:center;
-  padding: 0px;
+  
+  background-color:#990000;
+  
 `
 }
 #login_container ul li a{
