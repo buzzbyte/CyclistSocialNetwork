@@ -1,22 +1,22 @@
 /*main styles*/
 
 html{
-  margin:0px;
-  padding:0px;
+  margin:0;
+  padding:0;
 
 }
 
 body{
   height:100%;
-  padding:0px;
-  margin:0px;
+  padding:0;
+  margin:0;
   overflow: hidden;
   font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
 }
 
 
 h1{
-  margin:0px;
+  margin:0;
 }
 
 /*top navigation styles*/
@@ -27,7 +27,7 @@ h1{
   padding: 0;
   list-style: none;
   cursor: default;
-  right:0px;
+  right:0;
   height:100px;
 }
 
@@ -130,11 +130,11 @@ section#login{
 #login_container h1{
   text-align:center;
   font-size:64px;
-  margin:0px;
+  margin:0;
 }
 #login_container ul{
   width:100%;
-  padding:0px;
+  padding:0;
   margin:0 auto;
 }
 #login_container ul li{
@@ -149,12 +149,11 @@ section#login{
   margin:0 auto;
   margin-top:10px;
   text-align:center;
-  padding: 0px;
   border-radius: 4px;
-
+  padding:10px;
 }
 #login_container ul li:hover{
-  
+
   background-color:#990000;
 
 
@@ -163,10 +162,9 @@ section#login{
   text-decoration:none;
   color:black;
   display:block;
+  text-align:center;
   width:100%;
   height:100%;
-  padding:10px;
-  padding-right:-10px;
 }
 /*sign up styles*/
 
@@ -196,7 +194,7 @@ section#sign_up{
   width:100%;
 }
 #sign_up_form input[type=text]{
-  
+
   width :60%;
   height:22px;
   margin:auto;
@@ -214,7 +212,7 @@ section#sign_up{
   margin:0 auto;
   margin-top:10px;
   text-align:center;
-  padding: 0px;
+  padding:0;
   border-radius: 4px;
 
 }
@@ -222,7 +220,7 @@ section#sign_up{
    background-color:#990000;
 }
 #sign_up_form h1{
-  margin:0px;
+  margin:0;
 }
 /*about styles*/
 
@@ -264,9 +262,10 @@ section#contacts{
 #bottom_nav{
   position:fixed;
   width:100%;
-  background-color:black;
+  color:black;
+  background-color:rgba(255,255,255,.6);
   height:30px;
-  bottom:0px;
+  bottom:0;
 }
 
 #bottom_nav li{
@@ -275,12 +274,12 @@ section#contacts{
 }
 
 #bottom_nav ul{
-  padding:0px;
+  padding:0;
   margin:10px;
   margin-bottom:14px;
 }
 
 #bottom_nav li a{
   text-decoration:none;
-  color:white;
+  color:red;
 }
