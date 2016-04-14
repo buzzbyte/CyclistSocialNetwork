@@ -180,7 +180,7 @@ section#sign_up{
   margin:0 auto;
   top:30%;
   width:360px;
-  height:320px;
+  height:240px;
   background-color:rgba(255, 255,255, 0.5);
 }
 
@@ -192,12 +192,13 @@ section#sign_up{
 
 #sign_up_form form{
   width:100%;
+  text-align:center;
 }
-#sign_up_form input[type=text]{
-
-  width :60%;
+#sign_up_form input{
+  margin-top:10px;
+  width :80%;
   height:22px;
-  margin:auto;
+
 
 }
 .submit{
@@ -208,7 +209,7 @@ section#sign_up{
   border-color:red;
   border-width:3px;
   background-color:red;
-  width:50%;
+  width:35%;
   margin:0 auto;
   margin-top:10px;
   text-align:center;
@@ -271,6 +272,7 @@ section#contacts{
 #bottom_nav li{
   list-style:none;
   display:inline;
+  margin-right:8px;
 }
 
 #bottom_nav ul{
