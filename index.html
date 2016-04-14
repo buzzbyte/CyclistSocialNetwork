@@ -7,11 +7,12 @@
       1.smooth scroll with arrow keys
       2.smooth scroll with mouse wheel
       3. login and sign up box as well as guest box that bring in their respective form/ lead to anchor
-      4.about and contacts sections
+      4.about and contacts divs
       5. get backgrounds to work for all sizes
     -->
   </head>
   <body>
+  <div id="fullpage">
       <div class="dotstyle dotstyle-fillup">
             <ul>
                 <li><a class="smoothScroll" href="#login">Login</a></li>
@@ -20,7 +21,7 @@
                 <li><a class="smoothScroll" href="#contacts">Contact</a></li>
             </ul>
       </div>
-      <section id="login" class="page">
+      <section class="current" id="login">
         
       <div id="login_container">
         <h1>BikeNow</h1>
@@ -29,11 +30,11 @@
             <li><a>Login</a></li>
             <li><a>Login As Guest</a></li>
           </ul>
-      </div>
+      </section>
       <div id="login_form"></div>
-    </section>
+    </div>
     <div class="break_div"></div>
-    <section id="sign_up" class="page">
+    <section id="sign_up" >
       <div id="sign_up_form">
       <h1>BikeNow</h1>
         <form>
@@ -45,7 +46,7 @@
       </div>
     </section>
     <div class="break_div"></div>
-    <section id="about" class="page">
+    <section id="about" >
     <div id="about_container">
       <h1>About Us</h1>
       <p>BikeNow is a social network targeted towards the niche community of cyclists that allows for users to create public and private events that can be viewed by other users in an organized fashion.
@@ -55,7 +56,7 @@
     </div>
     </section>
     <div class="break_div"></div>
-    <section id="contacts" class="page">
+    <section id="contacts" >
       <div id="contacts_container">This is where contacts will go</div>
 
     </section>
@@ -71,5 +72,6 @@
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/scrolling.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
+    </div>
   </body>
 </html>
