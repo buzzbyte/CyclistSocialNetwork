@@ -78,10 +78,6 @@ h1{
     background-color: gray;
 }
 
-.dotstyle-fillup li.current a::after {
-  height: 100%;
-}
-
 
 #contacts_container{
   width:60%;
@@ -121,8 +117,8 @@ h1{
   height:100vh;
   background-image:url("../images/background_image.jpg");
 }
-/*login button*/
-#login_buttons{
+/*login container*/
+#login_container{
   position:relative;
   margin:0 auto;
   top:20%;
@@ -131,17 +127,17 @@ h1{
   background-color:rgba(255, 255,255, 0.5);
 }
 
-#login_buttons h1{
+#login_container h1{
   text-align:center;
   font-size:64px;
   margin:0px;
 }
-#login_buttons ul{
+#login_container ul{
   width:100%;
   padding:0px;
   margin:0 auto;
 }
-#login_buttons ul li{
+#login_container ul li{
   list-style:none;
   background-color:red;
   width:80%;
@@ -151,8 +147,17 @@ h1{
   padding: 0px;
 
 }
-
-#login_buttons ul li a{
+#login_container ul li:hover{
+  list-style:none;
+  background-color:#cc0000;
+  width:80%;
+  margin:0 auto;
+  margin-top:10px;
+  text-align:center;
+  padding: 0px;
+`
+}
+#login_container ul li a{
   text-decoration:none;
   color:black;
   display:block;
