@@ -61,23 +61,21 @@ h1{
 
 }
 
-.dotstyle-fillup li a::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  height: 0;
-  left: 0;
-  width: 100%;
+li a.active{
   background-color: black;
-  box-shadow: 0 0 1px #fff;
   transition: height 0.3s;
 }
 
+
 .dotstyle-fillup li a:hover{
 
-    background-color: gray;
+    background-color: red;
 }
 
+li a.active:hover{
+  background-color: black;
+  transition: height 0.3s;
+}
 
 #contacts_container{
   width:60%;
@@ -143,15 +141,14 @@ section#login{
 
   border-style:solid;
   border-color:red;
-  border-width:3px;
+  border-width:8px;
   background-color:red;
   width:80%;
   margin:0 auto;
   margin-top:10px;
+
   text-align:center;
   border-radius: 8px;
-  padding:10px;
-
 
 }
 #login_container ul li:hover{
@@ -167,6 +164,7 @@ section#login{
   width:100%;
   height:100%;
   color:black;
+  padding:6px;
 
   transition-duration: 0.2s;
 }
