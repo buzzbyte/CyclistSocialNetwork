@@ -149,25 +149,31 @@ section#login{
   margin:0 auto;
   margin-top:10px;
   text-align:center;
-  border-radius: 4px;
+  border-radius: 8px;
   padding:10px;
+
+
 }
 #login_container ul li:hover{
-
+  color:white;
   background-color:#990000;
 
 
 }
 #login_container ul li a{
   text-decoration:none;
-  color:black;
   display:block;
   text-align:center;
   width:100%;
   height:100%;
+  color:black;
+
+  transition-duration: 0.2s;
+}
+#login_container ul li a:hover{
+  color:white;
 }
 /*sign up styles*/
-
 section#sign_up{
   width:100%;
   height:100vh;
@@ -184,7 +190,6 @@ section#sign_up{
   background-color:rgba(255, 255,255, 0.5);
 }
 
-
 #sign_up_form h1{
   text-align:center;
   font-size:64px;
@@ -198,8 +203,6 @@ section#sign_up{
   margin-top:10px;
   width :80%;
   height:22px;
-
-
 }
 .submit{
   border: 0;
