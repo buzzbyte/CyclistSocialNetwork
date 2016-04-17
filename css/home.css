@@ -39,7 +39,11 @@ body{
 
 #navbar ul li{
 list-style-type:none;
+}
+#navbar ul li a{
 
+text-decoration:none;
+color:white;
 }
 /*main content style*/
 #left{
@@ -48,6 +52,16 @@ list-style-type:none;
   height:80%;
   overflow: scroll;
 }
+
+#search{
+  background-color:red;
+  padding:10px;
+  width:100%;
+}
+#textfield{
+  width:40%;
+}
+
 #right{
   float:right;
   width:25%;
