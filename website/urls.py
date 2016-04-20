@@ -18,5 +18,10 @@ from django.contrib import admin
 from bikenow import views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^$',views.index,name="index")
+    url(r'^$',views.index,name="index"),
+    url(r'^home/',views.home,name="home"),
+    url(r'^profile/',views.profile,name="profile"),
+    url(r'^club/',views.club,name="club"),
+    url(r'^friends/',views.friends,name="friends"),
+    url(r'^events/',views.events,name="events"),
 ]
