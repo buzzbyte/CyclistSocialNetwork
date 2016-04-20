@@ -16,6 +16,9 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 from bikenow import views
+from django.conf.urls import (
+    handler400, handler403, handler404, handler500
+)
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$',views.index,name="index"),
@@ -25,3 +28,4 @@ urlpatterns = [
     url(r'^friends/',views.friends,name="friends"),
     url(r'^events/',views.events,name="events"),
 ]
+handler404='bikenow.views.page_not_found'
