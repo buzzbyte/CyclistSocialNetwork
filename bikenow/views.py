@@ -22,7 +22,7 @@ def profile(request):
 	return render_to_response('profile.html')
 
 
-def page_not_found(request, template_name='404.html'):
+def page_not_found(request, template_name='errors/404.html'):
 
     return render_to_response(template_name,
         context_instance = RequestContext(request)
