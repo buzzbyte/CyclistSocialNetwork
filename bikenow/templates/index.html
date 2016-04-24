@@ -22,16 +22,25 @@
             </ul>
       </div>
       <section class="current" id="login">
-      <div id="login_container">
+      <div class="login_box" id="login_container">
         <h1>BikeNow</h1>
           <ul>
             <li><a class="smoothScroll" href="#sign_up">Sign Up</a></li>
-            <li><a>Login</a></li>
+            <li onclick="showLogin()"><a href="#">Login</a></li>
             <li><a href="/home">Login As Guest</a></li>
           </ul>
-      </section>
-      <div id="login_form"></div>
-    </div>
+        </div>
+      <div class="login_box" id="login_form">
+        <h1>BikeNow</h1>
+          <form>
+           <input type="text" id="email" placeholder="email"></input>
+            <input type="password" id="password" placeholder="password"></input>
+            <button class="submit" onclick="showDefaultScreen()">Go Back</button>
+            <input class="submit" type="submit"></input>
+          </form>
+      </div>
+     
+    </section>
     <div class="break_div"></div>
     <section id="sign_up" >
       <div id="sign_up_form">
